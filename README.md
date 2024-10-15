@@ -12,6 +12,10 @@ This is a simple and modern To-Do List application built with React and styled u
 - Data is saved in the browser's local storage.
 - Responsive and modern design.
 
+## Preview
+
+![App Screenshot](screenshot.png)
+
 
 ## Installation
 
