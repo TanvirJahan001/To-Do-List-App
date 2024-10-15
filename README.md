@@ -1,4 +1,3 @@
-
 # To-Do List App
 
 This is a simple and modern To-Do List application built with React and styled using Tailwind CSS. It allows users to add, mark as complete, and delete tasks. The app also includes local storage support, so tasks are saved across sessions.
