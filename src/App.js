@@ -48,11 +48,15 @@ function App() {
           To-Do List by Tanvir
         </h1>
 
-        {/* Total Task Display */}
         <p className="text-lg font-semibold text-gray-700 mb-4 text-center">
           Total Tasks: {todos.length}
         </p>
-
+        <p className="text-lg font-semibold text-gray-700 mb-4 text-center">
+          Completed Tasks: {todos.filter((todo) => todo.completed).length}
+        </p>
+        <p className="text-lg font-semibold text-gray-700 mb-4 text-center">
+          Pending Tasks: {todos.filter((todo) => !todo.completed).length}
+        </p>
         <TodoForm addTodo={addTodo} />
         <TodoList
           todos={todos}
