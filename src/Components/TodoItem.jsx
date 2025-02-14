@@ -5,7 +5,6 @@ function TodoItem({ todo, index, toggleComplete, deleteTodo }) {
 
   return (
     <li className="flex justify-between items-center p-5 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform">
-      {/* Task number and text */}
       <div className="flex flex-col flex-1 space-y-1">
         <div className="flex items-center">
           <span className="font-semibold text-indigo-600 text-lg mr-3">
@@ -24,8 +23,6 @@ function TodoItem({ todo, index, toggleComplete, deleteTodo }) {
           {new Date(todo.createdAt).toLocaleString()}
         </span>
       </div>
-
-      {/* Action Buttons */}
       <div className="flex space-x-3 ml-4">
         <button
           onClick={() => toggleComplete(todo.id)}
