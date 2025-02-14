@@ -24,7 +24,7 @@ function App() {
       id: Date.now(),
       text: text,
       completed: false,
-      createdAt: new Date(), // Store creation time
+      createdAt: new Date(), 
     };
     setTodos([...todos, newTodo]);
   };
@@ -45,7 +45,7 @@ function App() {
     <div className="App bg-gradient-to-r from-purple-400 via-indigo-400 to-blue-500 min-h-screen flex items-center justify-center">
       <div className="max-w-md w-full bg-white shadow-2xl rounded-lg p-8 transition-transform duration-300 ease-in-out transform ">
         <h1 className="text-4xl font-bold text-indigo-600 mb-6 text-center">
-          To-Do List by Tanvir
+          Simple To-Do List by Tanvir
         </h1>
 
         <p className="text-lg font-semibold text-gray-700 mb-4 text-center">
